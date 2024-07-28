@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    background-color:  #f0f1f8;
+    #afafb6
+    }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+nav{
+    background: #fff;
+    width: 100%;
+    position: relative;
+    border-top: 20px;
+    height: 35px;
+}
+nav .menu{
+    max-width: 1250px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2px 20px;
+}
+.menu .logo a{
+    text-decoration: none;
+    color: #3e2093;
+    font-size: 25px;
+    font-weight: 500;
+}
+.menu ul{
+    display: inline-flex;
+}
+.menu ul li{
+    list-style: none;
+    margin-left: 7px;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: #3e2093;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+.menu ul li a:hover{
+    background: #5029bc;
+    color: #fff;
+}
+.container{
+    background: #fff;
+    width: 100%;
+    height: 35px;
+    display: inline-flex;
+}
+.small-container{
+    display: inline-flex;
+    width: 100%;
+    height: 350px;
+    background: url(free1.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+
+.all{
+    width: 20px;
+    background: #3e2093;
+    height: 250px;
+    display: inline-flex;
+    position: absolute;
+    margin-top: 50px;
+}
+.fullbar{
+    height: 20px;
+    background: #3e2093;
+    width: 150px;
+    margin-top: 50px;
+}
+.smallbar{
+    height: 20px;
+    background: #3e2093;
+    width: 200px;
+    margin: 280px 0 0 -200px;
+}
+.container h1{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    margin: 90px 0 0 50px;
+    color: #fff;
+}
+.container p{
+    display: flex;
+    position: absolute;
+    color: #fff;
+    margin: 170px 0 0 50px;
+}
+.search{
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    margin: 70px 0 0 50px;
+    
+}
+.search p{
+    background: #3e2093;
+    width: 110px;
+    height: 20px;
+}
